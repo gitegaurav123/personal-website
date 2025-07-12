@@ -1,0 +1,22 @@
+runtime: python39
+
+handlers:
+  - url: /favicon.ico
+    static_files: favicon.ico
+    upload: favicon.ico
+    secure: always
+
+  - url: /Gaurav_Gite_Resume.pdf
+    static_files: Gaurav_Gite_Resume.pdf
+    upload: Gaurav_Gite_Resume.pdf
+    secure: always
+
+  - url: /
+    static_files: index.html
+    upload: index.html
+    secure: always
+
+  - url: /(.*)
+    static_files: \1
+    upload: .*
+    secure: always
