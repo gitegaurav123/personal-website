@@ -1,2 +1,2 @@
 # personal-website
-# personal-website
+Personal website code.
